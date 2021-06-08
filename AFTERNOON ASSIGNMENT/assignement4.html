@@ -1,0 +1,19 @@
+<!--Link an external script to change the color of the text to red on HTML on a button click.-->
+<!DOCTYPE>
+<html>
+	<head>
+		<title> external Script change color</title>
+		<link rel="stylesheet" type="text/css" href="externalscript.css"/>
+		<script>
+			//function defination
+			function changeColor(){
+			document.getElementById("abcd").style.color="red";
+			}
+		</script>
+	</head>
+	<body>
+		<p id="abcd">madBlocks MTA Web Dev BootCamp</p>
+	<button type="button" onclick="changeColor()">
+	Click to change</button>
+	</body>
+</html>
