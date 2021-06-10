@@ -1,19 +1,39 @@
-<!-- Create an external stylesheet with heading h1 and h2 red in color, text alignment to be in the center of HTML -->
-<!DOCTYPE>
+<!-- Create an about-us section, services section to navigate within a single page.-->
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ASSIGNMENT2</title>
-	<link rel = "stylesheet" type = "text/css" href = "/html/style.css">
+	<meta charset="utf-8">
+	<title>Assignment 2</title>
 	<style>
-		h1,h2 {
-			text-align: center;
-			color: red;
-		}
-	</style>
+			ul,li {
+				display: inline-block;
+			}
+		</style>
 </head>
 	<body>
-		<h1>madBlocks Web Dev Bootcamp</h1>
-		<h2>Sessions are going good</h2>
+		<nav>
+			<ul>
+				<li>
+					<a href="#about-us">About Us |</a>
+				</li>
+				<li>
+					<a href="#services">services</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="about-us">
+			<h1>Section1 </h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+
+		<section id="services">
+			<h1>Section2 </h1>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+
 	</body>
 </html>
